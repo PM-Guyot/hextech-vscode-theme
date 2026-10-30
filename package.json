@@ -1,0 +1,19 @@
+{
+    "name": "hextech-piltover-theme",
+    "displayName": "Hextech Piltover",
+    "version": "1.0.0",
+    "publisher": "local",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": ["Themes"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hextech Piltover",
+                "uiTheme": "vs-dark",
+                "path": "./themes/hextech-piltover-color-theme.json"
+            }
+        ]
+    }
+}
